@@ -1,0 +1,338 @@
+{
+  "一": {
+    "keyword": "um",
+    "meanings": [
+      "um",
+      "radical um (n. 1)"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "二": {
+    "keyword": "dois",
+    "meanings": [
+      "dois",
+      "radical dois (n. 7)"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "三": {
+    "keyword": "três",
+    "meanings": [
+      "três"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "四": {
+    "keyword": "quatro",
+    "meanings": [
+      "quatro"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "五": {
+    "keyword": "cinco",
+    "meanings": [
+      "cinco"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "六": {
+    "keyword": "seis",
+    "meanings": [
+      "seis"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "七": {
+    "keyword": "sete",
+    "meanings": [
+      "sete"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "八": {
+    "keyword": "oito",
+    "meanings": [
+      "radical oito (n. 12)"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "九": {
+    "keyword": "nove",
+    "meanings": [
+      "nove"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "十": {
+    "keyword": "dez",
+    "meanings": [
+      "dez"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "百": {
+    "keyword": "cem",
+    "meanings": [
+      "cem"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "千": {
+    "keyword": "mil",
+    "meanings": [
+      "mil"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "上": {
+    "keyword": "acima",
+    "meanings": [
+      "acima",
+      "superior",
+      "para cima",
+      "em cima",
+      "subir",
+      "sobre (algo)"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "下": {
+    "keyword": "abaixo",
+    "meanings": [
+      "abaixo",
+      "de baixo",
+      "baixo",
+      "em baixo",
+      "descer"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "左": {
+    "keyword": "esquerda",
+    "meanings": [
+      "esquerda"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "右": {
+    "keyword": "direita",
+    "meanings": [
+      "direita"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "中": {
+    "keyword": "dentro",
+    "meanings": [
+      "dentro",
+      "interior",
+      "meio",
+      "centro"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "大": {
+    "keyword": "grande",
+    "meanings": [
+      "grande",
+      "amplo",
+      "enorme"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "小": {
+    "keyword": "pequeno",
+    "meanings": [
+      "pequeno",
+      "pouco"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "月": {
+    "keyword": "mês",
+    "meanings": [
+      "mês",
+      "lua"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "日": {
+    "keyword": "dia",
+    "meanings": [
+      "dia",
+      "sol",
+      "contador de dias"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "年": {
+    "keyword": "ano",
+    "meanings": [
+      "ano",
+      "contador de anos"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "木": {
+    "keyword": "árvore",
+    "meanings": [
+      "árvore",
+      "madeira"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "山": {
+    "keyword": "montanha",
+    "meanings": [
+      "montanha"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "川": {
+    "keyword": "rio",
+    "meanings": [
+      "rio",
+      "fluxo",
+      "radical rio (n. 47)"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "土": {
+    "keyword": "solo",
+    "meanings": [
+      "solo",
+      "chão",
+      "terra"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "花": {
+    "keyword": "flor",
+    "meanings": [
+      "flor"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "人": {
+    "keyword": "pessoa",
+    "meanings": [
+      "pessoa",
+      "humano",
+      "gente"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "女": {
+    "keyword": "mulher",
+    "meanings": [
+      "mulher",
+      "femêa",
+      "feminino"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "男": {
+    "keyword": "homem",
+    "meanings": [
+      "homem",
+      "macho",
+      "masculino"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "水": {
+    "keyword": "água",
+    "meanings": [
+      "água"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "火": {
+    "keyword": "fogo",
+    "meanings": [
+      "fogo"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "車": {
+    "keyword": "carro",
+    "meanings": [
+      "carro",
+      "veículo",
+      "roda"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "金": {
+    "keyword": "ouro",
+    "meanings": [
+      "ouro",
+      "dinheiro",
+      "metal"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "雨": {
+    "keyword": "chuva",
+    "meanings": [
+      "chuva"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "今": {
+    "keyword": "agora",
+    "meanings": [
+      "agora",
+      "presente",
+      "esse"
+    ],
+    "notes": [],
+    "auto_translated": false
+  },
+  "語": {
+    "keyword": "língua",
+    "meanings": [
+      "língua",
+      "fala",
+      "palavra"
+    ],
+    "notes": [],
+    "auto_translated": false
+  }
+}

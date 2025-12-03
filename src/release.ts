@@ -12,25 +12,26 @@ let lodash = require("lodash");
     string[],
     Record<string, Reading>
   ] = await Promise.all([
-    Bun.file("./dataset/base/kanji.json").json(),
-    Bun.file("./dataset/base/word.json").json(),
-    Bun.file("./dataset/base/radical.json").json(),
-    Bun.file("./dataset/base/reading.json").json(),
+    Bun.file("./database/base/kanji.json").json(),
+    Bun.file("./database/base/word.json").json(),
+    Bun.file("./database/base/radical.json").json(),
+    Bun.file("./database/base/reading.json").json(),
   ])
-  const translationFiles = await readdir("./dataset/translation", { recursive: true })
+  const translationFiles = await readdir("./database/translation", { recursive: true })
   const availableLangs = translationFiles.filter(f => !f.includes("/"))
 
   const translationKanji: Record<string, Record<string, KanjiTranslation>> = {}
   const translationWord: Record<string, Record<string, WordTranslation>> = {}
   const keywordRadical: Record<string, Record<string, string>> = {}
 
+  console.log(availableLangs)
   for (let lang of availableLangs) {
-    if (translationFiles.includes(`${lang}/kanji.json`))
-      translationKanji[lang] = await Bun.file(`./dataset/translation/${lang}/kanji.json`).json()
-    if (translationFiles.includes(`${lang}/word.json`))
-      translationWord[lang] = await Bun.file(`./dataset/translation/${lang}/word.json`).json()
-    if (translationFiles.includes(`${lang}/radical.json`))
-      keywordRadical[lang] = await Bun.file(`./dataset/translation/${lang}/radical.json`).json()
+    if (translationFiles.includes(`${lang}\\kanji.json`))
+      translationKanji[lang] = await Bun.file(`./database/translation/${lang}/kanji.json`).json()
+    if (translationFiles.includes(`${lang}\\word.json`))
+      translationWord[lang] = await Bun.file(`./database/translation/${lang}/word.json`).json()
+    if (translationFiles.includes(`${lang}\\radical.json`))
+      keywordRadical[lang] = await Bun.file(`./database/translation/${lang}/radical.json`).json()
   }
 
   const releaseJson: {
@@ -83,7 +84,7 @@ let lodash = require("lodash");
       }
     })
 
-  Bun.file("./out/dataset.json").write(JSON.stringify(releaseJson))
+  Bun.file("./out/database.json").write(JSON.stringify(releaseJson))
 
   const kanjiInsert = Object.values(kanjiBase).map(k => {
     return {
